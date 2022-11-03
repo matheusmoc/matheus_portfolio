@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Matheus Andrade Portfo</title>
+        <title>Matheus Andrade Portfolio</title>
       </Head>
 
       <Header />
