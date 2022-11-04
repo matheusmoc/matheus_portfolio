@@ -34,19 +34,19 @@ export default function Hero({}: Props) {
         </h1>
 
         <div className="pt-52 divide-gray-500 divide-x">
-          <Link className="pl-1 pr-1" href="#about">
+          <Link className="pl-2 pr-2" href="#about">
             <button className="heroButton">About</button>
           </Link>
 
-          <Link className="pl-1 pr-1" href="#experience">
+          <Link className="pl-2 pr-2" href="#experience">
             <button className="heroButton">Experience</button>
           </Link>
 
-          <Link className="pl-1 pr-1" href="#skills">
+          <Link className="pl-2 pr-2" href="#skills">
             <button className="heroButton">Skills</button>
           </Link>
 
-          <Link href="#projects">
+          <Link className="pl-2 pr-2" href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
         </div>
