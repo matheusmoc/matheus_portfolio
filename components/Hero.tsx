@@ -21,7 +21,7 @@ export default function Hero({}: Props) {
       <BackgroundCircle />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://avatars.githubusercontent.com/u/73448357?s=400&u=d10689a047976a5b60acb2bff725719c1c22301b&v=4"
+        src="https://scontent.fmoc7-1.fna.fbcdn.net/v/t39.30808-6/312457503_1711483075905550_191835023645024432_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEYl7JbnHbEGYJcaCa7hRQ2grhBytkezTeCuEHK2R7NNw1JIaKxoq5rLmxWt6PcsC2k_zVzxNcPlvDgL8k0SHxf&_nc_ohc=fOLYBaxCLCwAX_40XBf&_nc_ht=scontent.fmoc7-1.fna&oh=00_AfAuRpITm5tNF9fBRxKEoF8KFGG4AWYLB88-UAsRhSETrA&oe=636AB1DF"
         alt=""
       />
       <div className="z-20">
@@ -34,19 +34,19 @@ export default function Hero({}: Props) {
         </h1>
 
         <div className="pt-52 divide-gray-500 divide-x">
-          <Link className="pl-2 pr-2" href="#about">
+          <Link className="pl-1 pr-1" href="#about">
             <button className="heroButton">About</button>
           </Link>
 
-          <Link className="pl-2 pr-2" href="#experience">
+          <Link className="pl-1 pr-1" href="#experience">
             <button className="heroButton">Experience</button>
           </Link>
 
-          <Link className="pl-2 pr-2" href="#skills">
+          <Link className="pl-1 pr-1" href="#skills">
             <button className="heroButton">Skills</button>
           </Link>
 
-          <Link className="pl-2 pr-2" href="#projects">
+          <Link className="pl-1 pr-1" href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
         </div>
