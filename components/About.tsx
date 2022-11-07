@@ -29,7 +29,7 @@ export default function About({}: Props) {
         //     once: true
         // }}
         src="https://scontent.fmoc7-1.fna.fbcdn.net/v/t1.6435-9/68991267_859111534476046_8888877033199763456_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeE8Rmh-8jY_mczwBZPedfOeXcm_SyDGXnddyb9LIMZed9ZMDFAd5OAZpIv20YfFmX9LezLD7yt13nrdh6UZSrz-&_nc_ohc=4v26Cvi67XEAX-HZppn&_nc_ht=scontent.fmoc7-1.fna&oh=00_AfBaxLEcbd5C98UpG_gSRfw0rFR2IjdXcC0EtZ2AZ_9AfA&oe=638D4F32"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className="mt-36 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 md:mt-12 xl:w-[500px] xl:h-[600px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">

@@ -7,11 +7,10 @@ import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
 
 type Props = {
-  image: string ;
 };
 
 
-const Home: NextPage<Props> = (image, images)  => {
+const Home: NextPage<Props> = ()  => {
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-mandatory snap-y overflow-scroll z-0'>
       <Head>
@@ -29,7 +28,7 @@ const Home: NextPage<Props> = (image, images)  => {
       </section>
 
       <section id="experience" className='snap-center'>
-        <WorkExperience image={images}/>
+        <WorkExperience />
       </section>
 
       <section id='skills' className='snap-start'>
