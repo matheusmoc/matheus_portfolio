@@ -9,12 +9,12 @@ import Javascript from "../public/javascript.svg";
 import { motion } from "framer-motion";
 
 type Props = {
-  src: string;
+  src?: string;
 };
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0  w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40
+    <article className="mt-20 relative flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[600px] h-[550px] md:w-[600px] xl:w-[680px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40
     cursor-pointer transition-opacity duration-300 overflow-hidden">
       <motion.img
         initial={{
@@ -26,7 +26,7 @@ export default function ExperienceCard({}: Props) {
           y: 0,
           opacity: 1,
         }}
-        className="w-32 h-32 xl:w-[200px] xl:h-[200px] object-cover object-center"
+        className="w-32 h-32 xl:w-[100px] xl:h-[100px] object-cover object-center"
         src={Laravel.src}
       />
 
