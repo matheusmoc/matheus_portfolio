@@ -5,12 +5,13 @@ type Props = {};
 
 export default function Contact({}: Props) {
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    
+    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row  max-w-full  px-10 justify-evenly mx-auto items-center">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
 
-      <div className="-mb-36 flex flex-col space-y-10">
+      <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           <p>I have got just what you need.</p>
           <span className="decoration-[#6e00a5]/50 underline">
@@ -42,12 +43,15 @@ export default function Contact({}: Props) {
           </div>
 
           <input placeholder="Subject" className="contactInput" type="text" />
-          
 
-          <textarea placeholder="Message" className="contactInput"/>
+          <textarea placeholder="Message" className="contactInput" />
 
-          <button type="submit" className="bg-[#6e00a5] py-5 px-10 rounded-md text-black font-bold">Submit</button>
-
+          <button
+            type="submit"
+            className="bg-[#6e00a5] py-5 px-10 rounded-md text-black font-bold"
+          >
+            Submit
+          </button>
         </form>
       </div>
     </div>
