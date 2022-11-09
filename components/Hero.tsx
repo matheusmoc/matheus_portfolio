@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
+import profile from "../public/profile.jpg"
 
-type Props = {};
+type Props = {
+  src?:string
+};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
@@ -21,7 +24,7 @@ export default function Hero({}: Props) {
       <BackgroundCircle />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://scontent.fmoc7-1.fna.fbcdn.net/v/t39.30808-6/312457503_1711483075905550_191835023645024432_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEYl7JbnHbEGYJcaCa7hRQ2grhBytkezTeCuEHK2R7NNw1JIaKxoq5rLmxWt6PcsC2k_zVzxNcPlvDgL8k0SHxf&_nc_ohc=fOLYBaxCLCwAX_40XBf&_nc_ht=scontent.fmoc7-1.fna&oh=00_AfAuRpITm5tNF9fBRxKEoF8KFGG4AWYLB88-UAsRhSETrA&oe=636AB1DF"
+        src={profile.src}
         alt=""
       />
       <div className="z-20">
