@@ -55,7 +55,7 @@ export default function Projects({ }: Props) {
           </div>
         ))}
       </div>
-      <div className="w-full absolute top-[30%] bg-[#6e00a5]/20 left-0 h-[350px] -skew-y-12" />
+      <div className="w-full absolute top-[30%] bg-[#6e00a5]/20 left-0 h-[450px] -skew-y-12" />
     </div>
   );
 }

@@ -10,43 +10,43 @@ export default function Contact({}: Props) {
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10">
+      <div className="-mb-36 flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           <p>I have got just what you need.</p>
-          <span className="decoration-[#6e00a5]/90 underline">
+          <span className="decoration-[#6e00a5]/50 underline">
             Lets talk about your app?
           </span>
         </h4>
 
-        <div className="space-x-10 items-baseline xl:flex space-y-10">
+        <div className="space-x-10 items-baseline xl:flex space-y-10 xl:divide-x">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#d47eff] h-7 w-7 animate-bounce" />
+            <PhoneIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
             <p className="text-2xl">+55 (38) 992709671</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#d47eff] h-7 w-7 animate-bounce" />
+            <EnvelopeIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
             <p className="text-2xl">matheusandrade009@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#d47eff] h-7 w-7 animate-bounce" />
+            <MapPinIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
             <p className="text-2xl">Montes Claros - MG, Brazil</p>
           </div>
         </div>
 
         <form className="flex flex-col space-y-2 w-fit mx-auto">
           <div className="flex space-x-2">
-            <input className="contactInput" type="text" />
-            <input className="contactInput" type="text" />
+            <input placeholder="Name" className="contactInput" type="name" />
+            <input placeholder="Email" className="contactInput" type="email" />
           </div>
 
-          <input className="contactInput" type="text" />
+          <input placeholder="Subject" className="contactInput" type="text" />
           
 
-          <textarea className="contactInput"/>
+          <textarea placeholder="Message" className="contactInput"/>
 
-          <button>Submit</button>
+          <button type="submit" className="bg-[#6e00a5] py-5 px-10 rounded-md text-black font-bold">Submit</button>
 
         </form>
       </div>
