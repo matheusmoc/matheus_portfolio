@@ -25,7 +25,7 @@ export default function Header({}: Props) {
         className="flex flex-row items-center"
       >
         <SocialIcon
-          url="https://www.facebook.com/profile.php?id=100011316218129"
+          url="https://www.linkedin.com/in/matheus-andrade-3320b0179/"
           fgColor="gray"
           bgColor="transparent"
         />
