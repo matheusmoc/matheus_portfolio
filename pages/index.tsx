@@ -51,8 +51,8 @@ const Home: NextPage = () => {
       </section>
 
       <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-center p-10">
+        <footer className="sticky bottom-5 w-full cursor-pointer py-12">
+          <div className="flex items-center justify-center p-5">
             <ChevronUpIcon className="bg-purple-700 text-black h-12 w-12 p-2 rounded-full filter hover:bg-purple-900 cursor-pointer animate-bounce" />
           </div>
         </footer>

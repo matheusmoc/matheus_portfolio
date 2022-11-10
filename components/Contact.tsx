@@ -26,31 +26,14 @@ export default function Contact({}: Props) {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center mt-36">
+        <h4 className="xl:text-4xl text-2xl font-semibold text-center mt-36">
           <p>I have got just what you need.</p>
           <span className="decoration-[#6e00a5]/50 underline">
             Lets talk about your app?
           </span>
         </h4>
 
-        <div className="space-x-10 items-baseline xl:flex space-y-10 xl:divide-x">
-          <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
-            <p className="text-2xl">+55 (38) 992709671</p>
-          </div>
-
-          <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
-            <p className="text-2xl">matheusandrade009@gmail.com</p>
-          </div>
-
-          <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
-            <p className="text-2xl">Montes Claros - MG, Brazil</p>
-          </div>
-        </div>
-
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 xl:w-fit w-100  mx-auto">
           <div className="flex space-x-2">
             <input {...register('name')} placeholder="Name" className="contactInput" type="name" />
             <input {...register('email')} placeholder="Email" className="contactInput" type="email" />
@@ -67,6 +50,24 @@ export default function Contact({}: Props) {
             Submit
           </button>
         </form>
+
+        <div className="space-x-10 items-baseline xl:flex space-y-10 xl:divide-x">
+          <div className="flex items-center space-x-5 justify-center">
+            <PhoneIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
+            <p className="xl:text-2xl text-base">+55 (38) 992709671</p>
+          </div>
+
+          <div className="flex items-center space-x-5 justify-center">
+            <EnvelopeIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
+            <p className="xl:text-2xl text-base">matheusandrade009@gmail.com</p>
+          </div>
+
+          <div className="flex items-center space-x-5 justify-center">
+            <MapPinIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
+            <p className="xl:text-2xl text-base">Montes Claros - MG, Brazil</p>
+          </div>
+        </div>
+
       </div>
     </div>
   );
