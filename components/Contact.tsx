@@ -26,7 +26,7 @@ export default function Contact({}: Props) {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="xl:text-4xl text-2xl font-semibold text-center mt-36">
+        <h4 className="xl:text-3xl text-2xl font-semibold text-center mt-36">
           <p>I have got just what you need.</p>
           <span className="decoration-[#6e00a5]/50 underline">
             Lets talk about your app?
@@ -51,20 +51,20 @@ export default function Contact({}: Props) {
           </button>
         </form>
 
-        <div className="space-x-10 items-baseline xl:flex space-y-10 xl:divide-x">
+        <div className="space-x-10 items-baseline xl:flex space-y-2 xl:divide-x pb-32 xl:pb-40">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
-            <p className="xl:text-2xl text-base">+55 (38) 992709671</p>
+            <PhoneIcon className="text-[#d47eff] h-7 w-7 animate-bounce xl:ml-5" />
+            <p className="xl:text-1xl text-base">+55 (38) 992709671</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
-            <p className="xl:text-2xl text-base">matheusandrade009@gmail.com</p>
+            <EnvelopeIcon className="text-[#d47eff] h-7 w-7 animate-bounce xl:ml-5" />
+            <p className="xl:text-1xl text-base">matheusandrade009@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#d47eff] h-7 w-7 animate-bounce ml-5" />
-            <p className="xl:text-2xl text-base">Montes Claros - MG, Brazil</p>
+            <MapPinIcon className="text-[#d47eff] h-7 w-7 animate-bounce xl:ml-5" />
+            <p className="xl:text-1xl text-base">Montes Claros - MG, Brazil</p>
           </div>
         </div>
 
