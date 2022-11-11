@@ -32,12 +32,12 @@ export default function About({}: Props) {
         className="mt-36 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[500px]"
       />
 
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
-          Here is a <span className="underline decoration-[#6e00a5]/50">little</span> about me
+      <div className="space-y-5 px-0 md:px-10">
+        <h4 className="xl:text-4xl text-2xl font-semibold">
+          Here is a <span className="underline decoration-[#6e00a5]/50">little</span> about me.
         </h4>
 
-        <p className="text-lg">
+        <p className="xl:text-lg text-xl">
           My name is Matheus, Brazilian born in the northern region of
           Minas Gerais, lover of coffee, cheese, superhero movies, and sitcoms.
           I have broad skills with technologies and am exclusively fascinated by
