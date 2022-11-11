@@ -51,19 +51,19 @@ export default function Contact({}: Props) {
           </button>
         </form>
 
-        <div className="space-x-10 items-baseline xl:flex space-y-2 xl:divide-x pb-44">
-          <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#d47eff] h-7 w-7 animate-bounce xl:ml-5" />
+        <div className="space-x-10 xl:flex space-y-2 xl:divide-x pb-44 items-baseline">
+          <div className="flex space-x-5 justify-center">
+            <PhoneIcon className="text-[#d47eff] w-7 h-7 animate-bounce xl:ml-5" />
             <p className="xl:text-1xl text-base">+55 (38) 992709671</p>
           </div>
 
-          <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#d47eff] h-7 w-7 animate-bounce xl:ml-5" />
+          <div className="flex space-x-5 justify-center">
+            <EnvelopeIcon className="text-[#d47eff] w-7 h-7 animate-bounce xl:ml-5" />
             <p className="xl:text-1xl text-base">matheusandrade009@gmail.com</p>
           </div>
 
-          <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#d47eff] h-7 w-7 animate-bounce xl:ml-5" />
+          <div className="flex space-x-5 justify-center">
+            <MapPinIcon className="text-[#d47eff] w-7 h-7 animate-bounce xl:ml-5" />
             <p className="xl:text-1xl text-base">Montes Claros - MG, Brazil</p>
           </div>
         </div>
