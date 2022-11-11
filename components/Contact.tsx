@@ -26,7 +26,7 @@ export default function Contact({}: Props) {
       </h3>
 
       <div className="flex flex-col space-y-10 mt-64">
-        <h4 className="xl:text-3xl text-2xl font-semibold text-center xl:mt-0">
+        <h4 className="exl:text-3xl text-2xl font-semibold text-center xl:mt-0">
           <p>I have got just what you need.</p>
           <span className="decoration-[#6e00a5]/50 underline">
             Lets talk about your app?
