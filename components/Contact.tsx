@@ -26,17 +26,17 @@ export default function Contact({}: Props) {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="xl:text-3xl text-2xl font-semibold text-center mt-36">
+        <h4 className="xl:text-3xl text-2xl font-semibold text-center xl:mt-0 mt-64">
           <p>I have got just what you need.</p>
           <span className="decoration-[#6e00a5]/50 underline">
             Lets talk about your app?
           </span>
         </h4>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 xl:w-fit w-100  mx-auto">
-          <div className="flex space-x-2">
-            <input {...register('name')} placeholder="Name" className="contactInput" type="name" />
-            <input {...register('email')} placeholder="Email" className="contactInput" type="email" />
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
+          <div className="xl:flex xl:space-x-2">
+            <input {...register('name')} placeholder="Name" className="contactInput xl:mb-0 mb-2 w-full" type="name" />
+            <input {...register('email')} placeholder="Email" className="contactInput w-full" type="email" />
           </div>
 
           <input {...register('subject')} placeholder="Subject" className="contactInput" type="text" />

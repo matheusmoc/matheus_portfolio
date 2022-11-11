@@ -16,7 +16,7 @@ export default function Projects({ }: Props) {
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#6e00a5]/80">
         {projects.map((project, index) => (
-          <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+          <div className="w-screen flex-shrink-0 snap-center flex flex-col items-center justify-center p-10 h-screen">
             <motion.img
               initial={{
                 y: -300,
@@ -31,10 +31,11 @@ export default function Projects({ }: Props) {
               }}
               src={code.src}
               alt=""
+              className="xl:w-auto w-28 mt-12"
             />
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-4xl font-semibold text-center">
+              <h4 className="text-3xl font-semibold text-center">
                 <span className="underline decoration-[#6e00a5]/60">
                   Case {index + 1} of {projects.length} :
                 </span>
