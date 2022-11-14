@@ -11,7 +11,7 @@ export default {
     {
       name: "companyImage",
       title: "Company Image",
-      type: "string",
+      type: "image",
       options: {
         hotspot: true,
       },
@@ -22,13 +22,13 @@ export default {
       type: "text",
     },
     {
-      name: "dateStarted",
-      title: "DateStarted",
+      name: "startDate",
+      title: "StartDate",
       type: "date",
     },
     {
-      name: "DateEnded",
-      title: "DateEnded",
+      name: "endDate",
+      title: "EndDate",
       type: "date",
     },
     {

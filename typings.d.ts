@@ -16,13 +16,13 @@ interface SanityBody {
   export interface Social extends SanityBody {
     _type: 'social'
     name: string
-    link: string
+    url: string
   }
   
   export interface PageInfo extends SanityBody {
     _type: 'pageInfo'
     address: string
-    backgroundInfo: string
+    backgroundInformation: string
     email: string
     role: string
     heroImage: Image
@@ -41,7 +41,7 @@ interface SanityBody {
   export interface Skill extends SanityBody {
     _type: 'skill'
     image: Image
-    progress: number
+    progress: string
     title: string
   }
   
@@ -49,9 +49,9 @@ interface SanityBody {
     _type: 'experience'
     company: string
     companyImage: Image
-    startDate: date
-    endDate: date
-    isCurrentlyEmployed: boolean
+    startDate: Date
+    endDate: Date
+    isCurrentlyWorkingHere: boolean
     jobTitle: string
     points: string[]
     technologies: Technology[]
