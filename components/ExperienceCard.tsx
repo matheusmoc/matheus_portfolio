@@ -25,7 +25,7 @@ export default function ExperienceCard({experience}: Props) {
         src={urlFor(experience?.companyImage).url()}
       />
 
-      <div className="px-0 md:px-10 max-w-md">
+      <div className="px-0 md:px-10">
         <h4 className="text-2xl xl:text-4xl font-light">{experience.jobTitle}</h4>
         <p className="font-bold xl:text-2xl mt-1.5 mb-5">
           {experience.company}

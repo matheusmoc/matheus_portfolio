@@ -25,6 +25,9 @@ export default {
       name: "startDate",
       title: "StartDate",
       type: "date",
+      by: [
+        {field: 'startDate', direction: 'asc'}
+      ]
     },
     {
       name: "endDate",
