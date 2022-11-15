@@ -1,5 +1,4 @@
 import React from "react";
-import code from "../public/code.png";
 import { motion } from "framer-motion";
 import { Project } from "../typings";
 import { urlFor } from "../sanity";
