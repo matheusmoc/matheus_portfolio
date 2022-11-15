@@ -20,7 +20,7 @@
 *.pem
 
 #sanity
-sanity/node_modules
+*sanity/node_modules
 
 # debug
 npm-debug.log*
