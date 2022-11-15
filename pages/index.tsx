@@ -75,7 +75,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
 
 export default Home;
 
-export const getStaticProps: GetStaticProps<Props> = async () => { //use getServerSideProps temporarily to deploy 
+export const getServerSideProps: GetStaticProps<Props> = async () => { //use getServerSideProps temporarily to deploy 
   const pageInfo: PageInfo = await fetchPageInfo();
   const experiences: Experience[] = await fetchExperiences();
   const skills: Skill[] = await fetchSkills();
