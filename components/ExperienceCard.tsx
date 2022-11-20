@@ -31,7 +31,7 @@ export default function ExperienceCard({experience}: Props) {
           {experience.company}
         </p>
 
-        <div className="flex my-2 items-baseline justify-around">
+        <div className="flex my-2 items-baseline space-x-1">
           {experience.technologies.map(technology => (
           <img key={technology._id} className="h-14 w-14" src={urlFor(technology?.image).url()} />
           ))}
