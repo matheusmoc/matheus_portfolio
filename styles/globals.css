@@ -9,7 +9,7 @@
     }
 
     .contactInput{
-       @apply  outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-400  placeholder-gray-400 transition-all focus:border-purple-200 focus:text-purple-400
+       @apply  outline-none bg-slate-400/10 rounded-sm border-b xl:px-6 xl:py-4 px-3 py-2 border-[#242424] text-gray-400  placeholder-gray-400 transition-all focus:border-purple-200 focus:text-purple-400
        focus:border-[#6e00a5]/40 hover:border-[#6e00a5]/40
     }
 }

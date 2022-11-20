@@ -14,7 +14,7 @@ export default function About({pageInfo}: Props) {
     transition={{ duration: 3.0}}
     whileInView={{opacity: 1}}
     className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-[1336px] px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 xl:text-2xl text-1xl">
         About
       </h3>
       <motion.img
@@ -33,7 +33,7 @@ export default function About({pageInfo}: Props) {
         //     once: true
         // }}
         src={urlFor(pageInfo.profilePic).url()}
-        className="mt-24 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-42 md:h-95 xl:w-[500px] xl:h-[500px]"
+        className="mt-24 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-42 md:h-95 xl:w-[500px] xl:h-[500px]"
       />
 
       <div className="space-y-5 px-0 md:px-10">
@@ -41,7 +41,7 @@ export default function About({pageInfo}: Props) {
           Here is a <span className="underline decoration-[#6e00a5]/50">little</span> about me.
         </h4>
 
-        <p className="xl:text-lg text-xl">
+        <p className="xl:text-lg text-sm">
           {pageInfo.backgroundInformation}
         </p>
       </div>

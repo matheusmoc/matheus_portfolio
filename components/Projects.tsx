@@ -11,7 +11,7 @@ export default function Projects({ projects }: Props) {
   // const projects = [1, 2, 3, 4, 5];
   return (
     <div className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 xl:text-2xl text-1xl">
         Projects
       </h3>
 
@@ -38,7 +38,7 @@ export default function Projects({ projects }: Props) {
             />
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-2xl font-semibold text-center">
+              <h4 className="xl:text-2xl text-xl font-semibold text-center">
                 <span className="underline decoration-[#6e00a5]/90">
                   Case {index + 1} of {projects.length}:
                 </span>{" "}
@@ -57,7 +57,7 @@ export default function Projects({ projects }: Props) {
               </div>
 
 
-              <p className="xl:text-2xl text-lx text-center md:text-left">
+              <p className="xl:text-2xl text-xs text-center md:text-left">
                 {project?.summary}
               </p>
             </div>

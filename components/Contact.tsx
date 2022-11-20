@@ -21,12 +21,12 @@ export default function Contact({}: Props) {
   return (
     
     <div className="h-screen flex relative flex-col text-center md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 xl:text-2xl text-1xl">
         Contact
       </h3>
 
       <div className="flex flex-col space-y-10 mt-64">
-        <h4 className="exl:text-3xl text-2xl font-semibold text-center xl:mt-0">
+        <h4 className="mt-10 xl:text-3xl text-sm font-semibold text-center xl:mt-0">
           <p className="xl:m-auto mt-20">I have got just what you need.</p>
           <span className="decoration-[#6e00a5]/50 underline">
             Lets talk about your app?
@@ -38,14 +38,13 @@ export default function Contact({}: Props) {
             <input {...register('name')} placeholder="Name" className="contactInput xl:mb-0 mb-2 w-full" type="name" />
             <input {...register('email')} placeholder="Email" className="contactInput w-full" type="email" />
           </div>
+            <input {...register('subject')} placeholder="Subject" className="contactInput" type="text" />
+            <textarea {...register('message')} placeholder="Message" className="contactInput" />
 
-          <input {...register('subject')} placeholder="Subject" className="contactInput" type="text" />
-
-          <textarea {...register('message')} placeholder="Message" className="contactInput" />
 
           <button
             type="submit"
-            className="bg-[#6e00a5] py-5 px-10 rounded-md text-black font-bold"
+            className="bg-[#6e00a5] xl:py-5 xl:px-10 py-2 rounded-md text-black font-bold"
           >
             Submit
           </button>
@@ -54,17 +53,17 @@ export default function Contact({}: Props) {
         <div className="space-x-10 xl:flex space-y-2 xl:divide-x pb-44 items-baseline">
           <div className="flex space-x-5 justify-center">
             <PhoneIcon className="text-[#d47eff] w-7 h-7 animate-bounce xl:ml-5" />
-            <p className="xl:text-1xl text-base">+55 (38) 992709671</p>
+            <p className="xl:text-1xl text-xs">+55 (38) 992709671</p>
           </div>
 
           <div className="flex space-x-5 justify-center">
             <EnvelopeIcon className="text-[#d47eff] w-7 h-7 animate-bounce xl:ml-5" />
-            <p className="xl:text-1xl text-base">matheusandrade009@gmail.com</p>
+            <p className="xl:text-1xl text-xs">matheusandrade009@gmail.com</p>
           </div>
 
           <div className="flex space-x-5 justify-center">
             <MapPinIcon className="text-[#d47eff] w-7 h-7 animate-bounce xl:ml-5" />
-            <p className="xl:text-1xl text-base">Montes Claros - MG, Brazil</p>
+            <p className="xl:text-1xl text-xs">Montes Claros - MG, Brazil</p>
           </div>
         </div>
 
