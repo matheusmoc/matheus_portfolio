@@ -25,7 +25,7 @@ export default function Contact({}: Props) {
         Contact
       </h3>
 
-      <div className="mt-44 flex flex-col space-y-10">
+      <div className="mt-32 flex flex-col space-y-10">
         <h4 className="mt-10 xl:text-3xl text-sm font-semibold text-center xl:mt-0">
           <p className="xl:m-auto mt-20">I have got just what you need.</p>
           <span className="decoration-[#6e00a5]/50 underline">

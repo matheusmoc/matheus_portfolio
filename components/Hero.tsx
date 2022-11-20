@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
-import profile from "../public/profile.jpg"
 import { PageInfo } from "../typings";
 import { urlFor } from "../sanity";
 
@@ -25,7 +24,7 @@ export default function Hero({pageInfo}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircle />
       <img
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        className="relative bg-gradient-to-r p-[3px] from-fuchsia-200 to-purple-900 rounded-full h-32 w-32 mx-auto object-cover"
         src={urlFor(pageInfo?.heroImage).url()}
         alt=""
       />
